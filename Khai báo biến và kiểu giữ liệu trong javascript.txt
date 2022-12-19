@@ -1,0 +1,50 @@
+-----Khai báo biến
+-Biến dùng để lưu trữ giá trị các dữ liệu, hay các đối tượng. Giá trị của biến tùy bạn thay đổi trong quá trình chương trình làm việc để đáp ứng yêu cầu riêng của bạn
+
+Sự khác nhau giữa var và let :
+-var cho phép định khai báo lại, let thì biến chỉ được khai báo 1 lần, nếu cố tình khai báo lần tiếp theo sẽ bị lỗi
+-let thì phạm vi hiệu lực trong khối {} nó khai báo, var thì hiệu lực toàn cục
+
+-----Đặt tên cho biến
+
+Khi đặt tên biến bạn theo quy tắc như sau:
+
+Bắt đầu bằng ký tự chữ hoặc _ hoặc $. Tiếp theo là chuỗi các ký tự chữ, số, gạch dưới, dollar
+Không được bắt đầu bằng số
+Không được chứa các ký hiệu toán học, logic ví dụ *, +
+Không được chứa khoảng trắng
+
+
+
+
+
+---- các  kiểu giữ liệu 
+
+Trong JS có 6 kiểu dữ liệu cơ bản:
+
+Number:Number trong JavaScript dùng cho cả số nguyên (integer) và số thực (float), và luôn là số có dấu (signed). Kiểu dữ liệu được xác định trên giá trị 
+gán cho nó (value) chứ không cần chỉ định rõ ràng.
+
+Boolean: Boolean lưu trữ hai giá trị đúng (true) và sai (false). Biến kiểu boolean có thể được dùng thay cho điều kiện trong các câu lệnh khác.
+String:String (chuỗi) dùng lưu dữ liệu dạng text. Nội dung của string được bao lại trong cặp nháy kép hoặc nháy đơn tùy trường hợp. Nếu nội dung chứa nháy kép, 
+thì dùng nháy đơn, và ngược lại. Một số trường hợp code JS trong HTML event, thì phải bắt buộc dùng nháy đơn do nháy kép bị HTML attribute lấy rồi.
+Null: là một giá trị gán, có nghĩa là bạn có thể gán giá trị null cho bất kỳ biến nào khi bạn muốn biến đó trống. Nó được cố ý để trống và sẽ trỏ đến một giá trị trống.
+Undefined:à một biến tồn tại nhưng chưa được khởi tạo YET. Có nghĩa là sau này, tôi có thể quay lại biến của mình và gán cho nó một giá trị mà trước đó nó không có.
+Vì vậy, nếu tôi khai báo một biến mà không có giá trị, nó chỉ được coi là không được khởi tạo.
+Object:
+
+Sự khác biệt giữa hai kiểu dữ liệu là:
+
+Undefined
+
+Khai báo
+Chưa được khởi tạo
+Phương pháp được chỉ định
+Null
+
+Thiếu
+Trống rỗng
+Không tồn tại
+Người dùng được chỉ định
+
+
